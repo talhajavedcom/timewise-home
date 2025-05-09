@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+@tailwind utilities;
+
+@theme {
+  --color-tw-primary: #008eff;
+  --color-tw-secondary: #C0E8FF8C;
+  --color-tw-accent: #F4F5FF;
+  --color-tw-dark: #1B2C79;
+  --color-tw-heading: #000;
+  --color-tw-body: #56575C;
+  --color-tw-paragraph: #000;
+  --color-tw-yellow: #FFB800;
+  --color-tw-gray-600: #4B5563;
+  --color-tw-gray-700: #374151;
+  --color-tw-gray-300: #D1D5DB;
+  --color-tw-gray-400: #9CA3AF;
+  --color-tw-gray-500: #AAAAAA;
+  --color-tw-blue-600: #2563EB;
+  --color-tw-black: #1E1E1E;
+  --color-tw-white: #FFFFFF;
+  /* Gradients */
+  --color-gradient-blue: #1C75BC38;
+  --color-gradient-offwhite: #8ECAE61C;
+  --default-font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)));
+}
